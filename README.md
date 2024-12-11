@@ -84,4 +84,79 @@ This project aims to analyze customer and transaction data to understand purchas
 ## Task - 2 : Experimentation and Uplift Testing
 
 
+### **Objective**
+This project evaluates the performance of trial store layouts in stores 77, 86, and 88 compared to control stores. The goal is to provide a data-driven recommendation on whether the trial layout should be rolled out to all stores.
+
+---
+
+### **Project Overview**
+
+#### **1. Control Store Selection**
+
+- **Objective:** Identify suitable control stores for each trial store to serve as a benchmark.
+- **Approach:** 
+  - Defined metrics for control store selection based on similarity to trial stores.
+  - Explored drivers such as:
+    - Total sales revenue.
+    - Number of customers.
+    - Average transactions per customer.
+  - Used statistical measures like Pearson correlation or magnitude distance to quantify similarity.
+  - Developed a reusable function for efficient control store selection.
+
+- **Control Store Matches:**
+  - **Trial store 77:** Control store 233.
+  - **Trial store 86:** Control store 155.
+  - **Trial store 88:** Control store 40.
+
+---
+
+#### **2. Assessment of the Trial**
+- **Comparison Metrics:**
+  - Total sales revenue.
+  - Total number of customers.
+  - Average transactions per customer.
+
+- **Steps:**
+  - Analyzed each trial store individually, comparing their performance to the respective control store during the trial period (Feb-Apr).
+  - Assessed whether changes in trial store performance were statistically significant.
+  - Investigated the drivers of change (e.g., more customers or higher purchases per customer).
+
+- **Key Insights:**
+  - **Trial store 77:** Sales for Feb, March, and April exceeded the 95% threshold compared to the control store.
+  - **Trial store 86:** Sales for all three trial months exceeded the 95% threshold.
+  - **Trial store 88:** No significant increase in sales or number of customers during the trial period.
+
+---
+
+#### **3. Findings and Recommendations**
+- **Trial Stores 77 and 86:**
+  - Showed significant increases in total sales and number of customers during the trial period.
+  - Positive impact suggests potential for rolling out the new layout to similar stores.
+
+- **Trial Store 88:**
+  - Did not demonstrate a significant increase in sales or customers.
+  - Further analysis is required to determine the factors limiting its performance.
+
+---
+
+#### **Conclusion**
+- **Summary of Results:**
+  - Trial store 77: Control store 233.
+  - Trial store 86: Control store 155.
+  - Trial store 88: Control store 40.
+  - Trial stores 77 and 86 exhibited significant positive results in total sales and customer numbers.
+  - Overall, the trial showed positive significant results, indicating the new layout's potential effectiveness for most stores.
+
+---
+
+#### **Deliverables**
+1. **Cleaned Data Files:** Saved as `.csv` for reference.
+2. **Codebase:** Documented and saved as a `.pdf` file.
+3. **Visualizations:** Graphs and charts summarizing trial vs. control performance.
+4. **Insights and Recommendations:** Summarized for client review.
+
+---
+
+
+
 
