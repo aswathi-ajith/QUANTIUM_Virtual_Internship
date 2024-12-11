@@ -1,3 +1,2 @@
-![logo](https://github.com/user-attachments/assets/408bb64c-0c98-4b92-88d1-3e34e96b54f1)
-
+![image](https://github.com/user-attachments/assets/d14934a7-ef35-47d3-a0ed-cc389cb7997a)
 Quantium Data Analytics Virtual Experience Program
