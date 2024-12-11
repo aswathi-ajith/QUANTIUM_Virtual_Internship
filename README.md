@@ -156,7 +156,13 @@ This project evaluates the performance of trial store layouts in stores 77, 86, 
 4. **Insights and Recommendations:** Summarized for client review.
 
 ---
+#### **Tools and Approach**
+- **Preferred Tools:**  
+  - **Python** due to the data size and complexity.
 
+---
+## Task - 3 : Analytics and commercial application
 
+- Prepared a report in Powerpoint highlighting key insights from Tasks 1 and 2 using the Pyramid Principle
 
 
