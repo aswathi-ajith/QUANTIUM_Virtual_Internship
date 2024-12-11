@@ -3,17 +3,17 @@
 # Quantium Data Analytics Virtual Experience Program
 
 ## The virtual internship consists of three tasks:
-### Task - 1
-# **Retail Analytics for Chips Category**
 
-## **Objective**
+## Task - 1 : **Retail Analytics for Chips Category**
+
+### **Objective**
 This project aims to analyze customer and transaction data to understand purchasing behavior in the chips category and provide strategic recommendations for the supermarket's category review. The insights will guide the chips category's strategic plan for the next six months.
 
 ---
 
-## **Project Overview**
+### **Project Overview**
 
-### **1. Data Cleaning and Preparation**
+#### **1. Data Cleaning and Preparation**
 - **Transaction Data:**  
   - Identified and addressed inconsistencies, missing data, and outliers.
   - Verified proper categorization of items and ensured correct formatting of numeric fields.
@@ -29,7 +29,7 @@ This project aims to analyze customer and transaction data to understand purchas
 
 ---
 
-### **2. Data Analysis and Metrics**
+#### **2. Data Analysis and Metrics**
 - **Key Metrics Defined:**
   - Total sales.
   - Drivers of sales.
@@ -43,7 +43,7 @@ This project aims to analyze customer and transaction data to understand purchas
 
 ---
 
-### **3. Customer Segmentation and Insights**
+#### **3. Customer Segmentation and Insights**
 - Segmentation based on customer spending and purchasing behavior.
 - Analysis of key factors such as:
   - Preferred pack sizes.
@@ -56,13 +56,13 @@ This project aims to analyze customer and transaction data to understand purchas
 
 ---
 
-### **4. Strategic Recommendations**
+#### **4. Strategic Recommendations**
 - Develop actionable recommendations with a commercial focus, leveraging the analysis findings.
 - Provide insights to guide the chips category's performance improvement in the next review cycle.
 
 ---
 
-## **Deliverables**
+#### **Deliverables**
 1. **Cleaned Data Files:** Saved as `.csv` for reference.
 2. **Visualizations:** Key charts and graphs summarizing findings.
 3. **Code:** Documented and saved as a `.pdf` file.
@@ -70,9 +70,9 @@ This project aims to analyze customer and transaction data to understand purchas
 
 ---
 
-## **Tools and Approach**
+#### **Tools and Approach**
 - **Preferred Tools:**  
-  - **R** or **Python** due to the data size and complexity.
+  - **Python** due to the data size and complexity.
   
 - **Steps Taken:**
   - High-level data checks: Summarizing, detecting outliers, correcting formats.
@@ -81,14 +81,7 @@ This project aims to analyze customer and transaction data to understand purchas
 
 ---
 
-## **Getting Started**
-1. Clone this repository.
-2. Use the provided scripts to:
-   - Clean the data.
-   - Perform analysis and segmentation.
-   - Generate visualizations.
-3. Review the `.pdf` file containing the code and initial findings.
+## Task - 2 : Experimentation and Uplift Testing
 
----
 
 
