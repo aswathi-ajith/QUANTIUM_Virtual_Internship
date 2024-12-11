@@ -4,36 +4,91 @@
 
 ## The virtual internship consists of three tasks:
 ### Task - 1
-#### Objective:
-The goal of this task is to analyze customer and transaction data to understand customer purchasing behavior for the chips category and to provide strategic recommendations to the Category Manager, Julia, for the upcoming category review. Insights from the analysis will guide the supermarket's strategic plan for the chips category.
-#### Key Tasks:
-##### Data Examination and Cleaning:
-Examine transaction data for:
-- Inconsistencies, missing data, and outliers.
-- Correct categorization of items and proper formatting of numeric fields.
-Examine customer data for:
-- Missing values, inconsistencies, and anomalies.
-- Perform necessary corrections and clean the data to ensure accuracy for analysis.
+# **Retail Analytics for Chips Category**
 
-##### Data Preparation:
-- Merge cleaned transaction and customer data into a single dataset for analysis.
-- Derive additional features such as pack size and brand name from the data to provide deeper insights.
-- 
-##### Data Analysis and Visualization:
+## **Objective**
+This project aims to analyze customer and transaction data to understand purchasing behavior in the chips category and provide strategic recommendations for the supermarket's category review. The insights will guide the chips category's strategic plan for the next six months.
 
-Define and calculate key metrics:
-Total sales, drivers of sales, and customer spending patterns.
-Identify regions or segments with the highest sales and purchasing trends.
-Explore and interpret data trends using charts and graphs.
-Save visualizations for use in the final report.
-Customer Segmentation and Insights:
+---
 
-Analyze customer segments to understand:
-Spending habits and purchasing behavior.
-Factors influencing chip purchases, such as pack sizes and preferred brands.
-Formulate insights and actionable recommendations for Julia on which customer segments to target and strategies to drive sales.
-Strategic Recommendations:
+## **Project Overview**
 
-Based on the findings, recommend actionable strategies with a commercial focus to enhance the chips category's performance.
-Save findings and analysis as CSV files and visualizations for reporting.
+### **1. Data Cleaning and Preparation**
+- **Transaction Data:**  
+  - Identified and addressed inconsistencies, missing data, and outliers.
+  - Verified proper categorization of items and ensured correct formatting of numeric fields.
+
+- **Customer Data:**  
+  - Checked for missing values and resolved anomalies.
+
+- **Merged Dataset:**  
+  - Combined cleaned transaction and customer data for analysis.
+  - Derived additional features such as:
+    - **Pack size**
+    - **Brand name**
+
+---
+
+### **2. Data Analysis and Metrics**
+- **Key Metrics Defined:**
+  - Total sales.
+  - Drivers of sales.
+  - Customer spending patterns.
+  - Regional and segment-based sales trends.
+
+- **Analysis Goals:**
+  - Understand who spends on chips and what drives their purchases.
+  - Explore data trends using visualizations (charts and graphs).
+  - Identify segments and regions with the highest sales.
+
+---
+
+### **3. Customer Segmentation and Insights**
+- Segmentation based on customer spending and purchasing behavior.
+- Analysis of key factors such as:
+  - Preferred pack sizes.
+  - Popular brands.
+  - Spending drivers for each segment.
+
+- Insights will inform recommendations on:
+  - Target customer segments.
+  - Strategies to enhance sales and engagement.
+
+---
+
+### **4. Strategic Recommendations**
+- Develop actionable recommendations with a commercial focus, leveraging the analysis findings.
+- Provide insights to guide the chips category's performance improvement in the next review cycle.
+
+---
+
+## **Deliverables**
+1. **Cleaned Data Files:** Saved as `.csv` for reference.
+2. **Visualizations:** Key charts and graphs summarizing findings.
+3. **Code:** Documented and saved as a `.pdf` file.
+4. **Insights and Recommendations:** Ready for integration into the category review report.
+
+---
+
+## **Tools and Approach**
+- **Preferred Tools:**  
+  - **R** or **Python** due to the data size and complexity.
+  
+- **Steps Taken:**
+  - High-level data checks: Summarizing, detecting outliers, correcting formats.
+  - Merging datasets and deriving features for deeper insights.
+  - Visualizing data to uncover purchasing trends and behaviors.
+
+---
+
+## **Getting Started**
+1. Clone this repository.
+2. Use the provided scripts to:
+   - Clean the data.
+   - Perform analysis and segmentation.
+   - Generate visualizations.
+3. Review the `.pdf` file containing the code and initial findings.
+
+---
+
 
